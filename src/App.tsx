@@ -1,3 +1,4 @@
+import CautionMarquee from "./components/DontEnter";
 import Eyes from "./components/Eyes";
 
 export default function App() {
@@ -9,6 +10,8 @@ export default function App() {
         alt=""
       />
       <Eyes />
+      <br />
+      <CautionMarquee />
     </div>
   );
 }
