@@ -2,9 +2,13 @@ import Eyes from "./components/Eyes";
 
 export default function App() {
   return (
-    <>
-      <h1 className="text-xl">Hey boss!</h1>
+    <div className="container mx-auto flex flex-col items-center">
+      <img
+        className="w-40 h-40 block"
+        src="/android-chrome-512x512.png"
+        alt=""
+      />
       <Eyes />
-    </>
+    </div>
   );
 }
